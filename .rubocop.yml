@@ -1,0 +1,17 @@
+---
+AllCops:
+  TargetRubyVersion: 2.5
+  Exclude:
+    - ansible/**/*
+
+require:
+  - rubocop-rspec
+
+Metrics/BlockLength:
+  Exclude:
+    - app/db/migrations/*
+    - app/spec/**/*_spec.rb
+
+RSpec/MessageSpies:
+  EnforcedStyle: receive
+

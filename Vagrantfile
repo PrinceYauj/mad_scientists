@@ -37,5 +37,6 @@ Vagrant.configure(2) do |config|
       ansible.galaxy_roles_path = 'roles'
       ansible.galaxy_role_file  = 'requirements.yml'
     end
+#    dev.vm.provision "shell", path: "script.sh"
   end
 end

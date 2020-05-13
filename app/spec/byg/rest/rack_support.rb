@@ -2,6 +2,7 @@
 
 require 'rack/test'
 
+# REST API application for tests
 module RackSupport
   include Rack::Test::Methods
 
